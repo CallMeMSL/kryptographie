@@ -52,9 +52,28 @@ import EssentialLink from 'components/EssentialLink.vue';
 const linksList = [
   {
     title: 'Erweiterter Euklidischer Algorithmus',
-    caption: 'ggT mit zusatzinfos',
     icon: 'school',
     link: '/eea'
+  },
+  {
+    title: 'Chinesischer Restsatz',
+    icon: 'precision_manufacturing',
+    caption: 'TODO',
+    link: '/cr'
+  },
+  {
+    title: 'Frettlöh Kryptographie SS22',
+    caption: 'Übungen + Script',
+    icon: 'apple',
+    link: 'https://www.math.uni-bielefeld.de/~frettloe/teach/krypto22.html',
+    extern: true
+  },
+  {
+    title: 'Frettlöh Kryptographie SS21',
+    caption: 'Videos + alte Aufgaben',
+    icon: 'play_circle',
+    link: 'https://www.math.uni-bielefeld.de/~frettloe/teach/krypto21.html',
+    extern: true
   },
 ];
 
